@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+a{
+    background: transparent;
+    color: black;
+}
+
+
+header, ul.links{
+    display: flex;
+    align-items: center;
+    padding: 25px 80px;
+    background-color:red;
+    text-decoration: none;
+}
+header, ul.topcategory{
+    display: flex;
+    align-items: center;
+    padding: 25px 50px;
+    background-color:red;
+    text-decoration: none;
+    
+}
+nav {
+	position: relative;
+    background-color: #333;
+  }
+
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Navbar links */
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+.gambar-logo{
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+.logo2{
+    width: 100px;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    align-items: left;
+}
+.links li{
+    list-style: none;
+    background: transparent;
+    text-decoration: none;
+    color: black;
+}
+
+.links li a{
+    text-decoration: none;
+    padding: 100px;
+}
+
+li a:hover{
+    color: black;
+}
+.links a{
+    color: white;
+    font-family: MuseoModerno;
+}
+.topcategory li{
+    list-style: none;
+    background: transparent;
+    text-decoration: none;
+}
+
+.topcategory li a{
+    text-decoration: none;
+    padding: 60px;
+}
+.topcategory a{
+    color: white;
+    font-family: MuseoModerno;
+}
+.search {
+    padding:8px 15px;
+    background:rgba(255, 255, 255, 0.2);
+    border:0px solid white;
+}
+button{
+    padding: 9px 23px;
+    background-color: rgb(0, 0, 0) ;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3 s ease 0s;
+    font-family: Roboto;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    border: none;
+    position: relative;
+    left: 200px;
+}	
+#buttonG{
+    position: relative;
+    bottom: 55px;
+    left: -70px;
+    color: white;
+}
+#buttonG .cbr{
+    color: white;
+}
+#buttonH{
+    position: relative;
+    bottom: 100px;
+    left: 300px;
+    color: white;
+}
+#buttonH .monkey{
+    color: white;
+}
+#buttonI{
+    position: relative;
+    bottom: 140px;
+    left: 710px;
+    color: white;
+}
+#buttonI .horizon{
+    color: white;
+}
+
+button:hover{
+    background-color: rgb(55, 212, 146);
+}
+.productPanel:not(:nth-child(3n)){
+    margin-right: 0;
+}
+
+h2{
+	font-family: sans-serif;
+	font-weight: normal;
+}
+
+.image {
+    border: 10px solid #efefef; 
+	position: relative; 
+	overflow: hidden; 
+}
+
+.siteMap {
+    background: #262626 none repeat scroll 0% 0%;
+    border-top: 5px solid #111;
+}
+.widthBox {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0px auto;
+    position: relative;
+    
+}
+.siteMap .panelWrapper {
+    padding: 30px 0px;
+}
+.panelWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 20px;
+}
+.siteMap .panelWrapper .customerPanel {
+    width: 20%;
+    float: left;
+}
+.siteMap .panelWrapper .sitemapBox .panel .box, .siteMap .panelWrapper .customerPanel .box {
+    display: block;
+    margin-bottom: 30px;
+}
+.siteMap .panelWrapper .sitemapBox .panel .heading, .siteMap .panelWrapper .customerPanel .heading {
+    display: block;
+    margin-bottom: 20px;
+}
+.siteMap .panelWrapper .sitemapBox .panel .heading h3, .siteMap .panelWrapper .customerPanel .heading h3 {
+    background: transparent url("../images/footer-menu-red.png") no-repeat scroll left bottom 14px;
+    width: 75%;
+    font-family: oswald;
+    font-size: 14px;
+    color: #E92030;
+    padding-left: 25px;
+    border-bottom: 2px solid #E92030;
+    text-transform: uppercase;
+    display: block;
+    padding-bottom: 10px;
+    transition: all 0.5s ease 0s;
+}
+* {
+    box-sizing: border-box;
+}
+.custImage {
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    margin-bottom: 10px;
+}
+.custcareCaption {
+    font-family: roboto,sans-serif;
+    font-size: 11px;
+    color: #DbDD;
+    line-height: 2;
+    display: block;
+    margin-bottom: 30px;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+    margin: 0px;
+    padding: 0px;
+    background: transparent;
+}
+* {
+    box-sizing: border-box;
+}
+.siteMap .panelWrapper .customerPanel .box .motto {
+    width: 100%;
+}
+
+body, .panelWrapper {
+    font-family: roboto,sans-serif;
+    font-size: 14px;
+    color: black;
+}
+.fullBox::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+footer {
+    width: 100%;
+    background:black none repeat scroll 0% 0%;
+    text-align: center;
+    padding: 15px 0px;
+    display: block;
+}
+footer p {
+    font-family: roboto,sans-serif;
+    font-size: 12px;
+    color: white;
+    background: transparent;
+}
+.backtopScroll {
+    background: transparent url("../images/up_anchor.png") no-repeat scroll center center;
+    bottom: 15px;
+    display: inline-block;
+    height: 48px;
+    opacity: 0.6;
+    overflow: hidden;
+    position: fixed;
+    right: -80px;
+    transition: all 0.5s ease-in-out 0s;
+    width: 48px;
+    z-index: 1;
+}
+.motto img{
+    background: transparent;
+}
+.logo-komik img{
+    background: transparent;
+}
+
+.form-dark .font-small {
+    font-size: 0.8rem; }
+  
+  .form-dark [type="radio"] + label,
+  .form-dark [type="checkbox"] + label {
+    font-size: 0.8rem; }
+  
+  .form-dark [type="checkbox"] + label:before {
+    top: 2px;
+    width: 15px;
+    height: 15px; }
+  
+  .form-dark .md-form label {
+    color: rgb(0, 0, 0); }
+  
+  .form-dark input[type=nama]:focus:not([readonly]) {
+    border-bottom: 1px solid #00C851;
+    -webkit-box-shadow: 0 1px 0 0 #00C851;
+    box-shadow: 0 1px 0 0 #00C851; }
+  
+  .form-dark input[type=nama]:focus:not([readonly]) + label {
+    color: rgb(0, 0, 0); }
+  
+  .form-dark input[type=notelp]:focus:not([readonly]) {
+    border-bottom: 1px solid #00C851;
+    -webkit-box-shadow: 0 1px 0 0 #00C851;
+    box-shadow: 0 1px 0 0 #00C851; }
+  
+  .form-dark input[type=notelp]:focus:not([readonly]) + label {
+    color: rgb(0, 0, 0); }
+  
+  .form-dark input[type="checkbox"] + label:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 575px;
+    width: 17px;
+    height: 17px;
+    z-index: 0;
+    border: 1.5px solid #fff;
+    border-radius: 1px;
+    margin-top: 2px;
+    -webkit-transition: 0.2s;
+    transition: 0.2s; }
+  
+  .form-dark input[type="checkbox"]:checked + label:before {
+    top: -4px;
+    left: 575px;
+    width: 12px;
+    height: 22px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: transparent #00c851 #00c851 transparent;
+    -webkit-transform: rotate(40deg);
+    -ms-transform: rotate(40deg);
+    transform: rotate(40deg);
+    -webkit-backface-visibility: hidden;
+    -webkit-transform-origin: 100% 100%;
+    -ms-transform-origin: 100% 100%;
+    transform-origin: 100% 100%; }
+  
+  .form-dark .modal-header {
+      border-bottom: none;
+  }
+  
+  .button3 .btnsubmit{
+      background-color: green;
+      color: white;
+      position: relative;
+      left: 250px;
+  }

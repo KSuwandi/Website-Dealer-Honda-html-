@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    user-select: text ;
+}
+
+a{
+    background: transparent;
+    color: black;
+}
+
+
+header, ul.links{
+    display: flex;
+    align-items: center;
+    padding: 25px 70px;
+    background-color:red;
+    text-decoration: none;
+}
+header, ul.topcategory{
+    display: flex;
+    align-items: center;
+    padding: 25px 50px;
+    background-color:red;
+    text-decoration: none;
+    
+}
+nav {
+	position: relative;
+    background-color: #333;
+  }
+
+.gambar-logo{
+    width: 100px;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+}
+
+.logo2{
+    width: 100px;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    align-items: left;
+}
+.links li{
+    list-style: none;
+    background: transparent;
+    text-decoration: none;
+    color: black;
+}
+
+.links li a{
+    text-decoration: none;
+    padding: 100px;
+}
+
+li a:hover{
+    color: black;
+}
+.links a{
+    color: white;
+    font-family: MuseoModerno;
+}
+.boxBesar{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    position: relative;
+}
+.Dealers{
+    padding: 30px 0 0;
+}
+h2{
+    color: #e0232a;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 150%; 
+}
+.dealersInfo{
+    width: 100%;
+    display: block;
+    margin-bottom: 45px;
+}
+.dealersPertama{
+    width: 33.33%;
+    float: left;
+}
+.dealersPertama .headingPertama{
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+}
+h4.medium{
+    font-size: 18px;
+}
+.logodealersPertama{
+    width: 25%;
+    max-width: 68px;
+    float: left;
+}
+.logo img {
+    width: 100%;
+}
+.dealersKedua{
+    width: 33.33%;
+    float: left;
+}
+.dealersKedua .headingKedua{
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+}
+.dealersKedua .headingKedua h4{
+    width: 75%;
+    font-family: oswald;
+    font-size: 16px;
+    line-height: 65px;
+    text-align: left;
+    float: right;
+}
+.dealersKedua .headingKedua h4 .logodealersKedua{
+    width: 25%;
+    max-width: 68px;
+    float: left;
+}
+.dealersKetiga{
+    width: 33.33%;
+    float: left;
+}
+.dealersKetiga .headingKetiga{
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+}
+.dealersKetiga .headingKetiga .logodealersKetiga{
+    width: 25%;
+    max-width: 68px;
+    float: left;
+}
+.tableDealer{
+    display: block;
+    margin-bottom: 30px;
+}
+table{
+    width: 100%!important;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.dealersTable thead{
+    background: #e92030;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.dealersTable th:first-child, .dealersTable td:first-child{
+    text-align: center;
+}
+.dealersTable th{
+    color: #fff;
+    font-weight: 700;
+    background: red;
+}
+.dealersTable th, .dealersTable td {
+    font-size: 13px;
+    border: 1px solid #fff;
+    border-collapse: collapse;
+    padding: 8px;
+}
+caption, th{
+    text-align: left;
+}
+address, caption, cite, code, dfn, em, strong, th, var {
+    font-style: normal;
+    font-weight: 400;
+}
+th{
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+    background: #e92030;
+}
+tbody{
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.dealer_table tr:nth-child(2n) {
+    background: #f9f9f9;
+}
+.siteMap {
+    background: #262626 none repeat scroll 0% 0%;
+    border-top: 5px solid #111;
+}
+.widthBox {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0px auto;
+    position: relative;
+    
+}
+.siteMap .panelWrapper {
+    padding: 30px 0px;
+}
+.panelWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 20px;
+}
+.siteMap .panelWrapper .customerPanel {
+    width: 20%;
+    float: left;
+}
+.siteMap .panelWrapper .sitemapBox .panel .box, .siteMap .panelWrapper .customerPanel .box {
+    display: block;
+    margin-bottom: 30px;
+}
+.siteMap .panelWrapper .sitemapBox .panel .heading, .siteMap .panelWrapper .customerPanel .heading {
+    display: block;
+    margin-bottom: 20px;
+}
+.siteMap .panelWrapper .sitemapBox .panel .heading h3, .siteMap .panelWrapper .customerPanel .heading h3 {
+    background: transparent url("../images/footer-menu-red.png") no-repeat scroll left bottom 14px;
+    width: 75%;
+    font-family: oswald;
+    font-size: 14px;
+    color: #E92030;
+    padding-left: 25px;
+    border-bottom: 2px solid #E92030;
+    text-transform: uppercase;
+    display: block;
+    padding-bottom: 10px;
+    transition: all 0.5s ease 0s;
+}
+* {
+    box-sizing: border-box;
+}
+.custImage {
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    margin-bottom: 10px;
+}
+.custcareCaption {
+    font-family: roboto,sans-serif;
+    font-size: 11px;
+    color: #DbDD;
+    line-height: 2;
+    display: block;
+    margin-bottom: 30px;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+    margin: 0px;
+    padding: 0px;
+    background: transparent;
+}
+* {
+    box-sizing: border-box;
+}
+.siteMap .panelWrapper .customerPanel .box .motto {
+    width: 100%;
+}
+
+body, .panelWrapper {
+    font-family: roboto,sans-serif;
+    font-size: 14px;
+    color: black;
+}
+.fullBox::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+footer {
+    width: 100%;
+    background:black none repeat scroll 0% 0%;
+    text-align: center;
+    padding: 15px 0px;
+    display: block;
+}
+footer p {
+    font-family: roboto,sans-serif;
+    font-size: 12px;
+    color: white;
+    background: transparent;
+}
+.backtopScroll {
+    background: transparent url("../images/up_anchor.png") no-repeat scroll center center;
+    bottom: 15px;
+    display: inline-block;
+    height: 48px;
+    opacity: 0.6;
+    overflow: hidden;
+    position: fixed;
+    right: -80px;
+    transition: all 0.5s ease-in-out 0s;
+    width: 48px;
+    z-index: 1;
+}
+.motto img{
+    background: transparent;
+}
+.logo-komik img{
+    background: transparent;
+}
